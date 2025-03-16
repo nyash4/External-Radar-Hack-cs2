@@ -417,8 +417,8 @@ void DrawFrame(HDC hdc, Graphics& graphics, Bitmap& image, int imgWidth, int img
             SolidBrush brush(color);
             graphics.FillEllipse(
                 &brush,
-                static_cast<REAL>(scaledX - 5),
-                static_cast<REAL>(scaledY - 5),
+                static_cast<REAL>(scaledX ),
+                static_cast<REAL>(scaledY ),
                 static_cast<REAL>(10),
                 static_cast<REAL>(10)
             );
